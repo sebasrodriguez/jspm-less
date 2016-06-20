@@ -1,0 +1,28 @@
+{
+  "name": "jspm-less",
+  "version": "0.1.0",
+  "description": "Resolves jspm package imports in less files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebasrodriguez/jspm-less.git"
+  },
+  "keywords": [
+    "jspm",
+    "less",
+    "import",
+    "systemjs"
+  ],
+  "main": "lib/index.js",
+  "author": "Sebastian Rodriguez <sebasrodriguez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebasrodriguez/jspm-less/issues"
+  },
+  "homepage": "https://github.com/sebasrodriguez/jspm-less",
+  "dependencies": {
+    "jspm": "^0.16.34"
+  },
+  "peerDependencies": {
+    "less": ">= 2.5"
+  }
+}
